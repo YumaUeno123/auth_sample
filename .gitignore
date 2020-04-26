@@ -1,0 +1,7 @@
+# Dependency directories (remove the comment below to include it)
+bin/
+vendor/
+
+# Custom
+.idea/
+.DS_Store
