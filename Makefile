@@ -13,8 +13,8 @@ install-tools:
 	go install \
 	golang.org/x/tools/cmd/goimports \
 	github.com/golangci/golangci-lint/cmd/golangci-lint \
-	github.com/swaggo/swag/cmd/swag
-
+	github.com/swaggo/swag/cmd/swag \
+	bitbucket.org/liamstask/goose/cmd/goose
 install: install-go install-modules install-tools
 
 lint:
